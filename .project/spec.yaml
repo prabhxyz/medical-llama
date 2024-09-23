@@ -92,7 +92,9 @@ execution:
     gpu:
       requested: 0
     sharedMemoryMB: 0
-  secrets: []
+  secrets:
+  - variable: NIM_APIKEY
+    description: 'NVIDIA NIM Api Key. '
   mounts:
   - type: project
     target: /project/
