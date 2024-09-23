@@ -1,1 +1,2 @@
 jupyterlab>3.0
+openai>=1.1.0
